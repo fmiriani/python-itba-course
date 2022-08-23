@@ -48,6 +48,4 @@ deactivate
 
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)“#test2>>README.md
-git init
-echo “#test2
+[MIT](https://choosealicense.com/licenses/mit/)
