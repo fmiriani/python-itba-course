@@ -73,9 +73,14 @@ def grafico_de_ticker():
     
     #Tercero: usamos pandas para graficas los datos traidos.
 
+            #We define the figure sizes where the graph will be shown.
+            fig= plt.figure(dpi=100, figsize=(14, 7))
+            
             #Making the graph
             plt.plot(df['Date'], df['Price'])
-            plt.xticks(rotation='vertical')
+
+            #Rotation of the x values
+            plt.xticks(rotation=0)
             plt.xlabel('Timeline') 
             plt.ylabel('Ticker Price')
             plt.title("Ticker Graph")
@@ -92,10 +97,7 @@ def grafico_de_ticker():
                 if __name__ == "__main__":
                     print("sqlite connection is closed")
 
-    
-
-    
-    
+  
 
     
 

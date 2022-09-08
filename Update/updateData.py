@@ -89,16 +89,7 @@ def validate_if_ticker_exist():
     
         
     
-def update_data():
-    """ funcion que valida que la respuesta sea 1 o 2 y sigue pidiendo input hasta que se cumpla la condición
-
-    Args:
-        menu_type: str con el tipo de menu de donde proviene la elección; usado para re-dirigir en answer_handdler
-
-    Returns:
-        anser_handdler(rta, menu_type): función que elije el proximo paso a cumplir según haya sido la rta y el menu donde fue elegida
-    """    
-    
+def update_data():    
     
     ############# INGRESO DE DATOS #######################
 
